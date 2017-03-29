@@ -1,0 +1,36 @@
+html {
+ background-size: cover;
+}
+
+body.morning {
+ background: url(img/morning.png);
+ background-size: cover;
+
+}
+
+body.afternoon {
+ background: url(img/afternoon.png);
+ background-size: cover;
+ background-repeat:no-repeat;
+
+}
+
+body.evening {
+ background: url(img/evening.png);
+ background-size: cover;
+ background-repeat:no-repeat;
+}
+
+body.night {
+ background: url(img/night.png);
+ background-size: cover;
+ background-repeat:no-repeat;
+}
+
+.core {
+ text-align: center;
+ margin: 20% auto;
+ font-family: 'Grand Hotel', cursive;
+ color: #fff;
+ font-size: 40px;
+}
